@@ -2,4 +2,6 @@
 
 import UIKit
 
-var str = "Hello, playground"
+var myName :String
+var otherName = "words"
+var thisName :String = "thor"
