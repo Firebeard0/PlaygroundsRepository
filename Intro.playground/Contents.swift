@@ -4,13 +4,10 @@ import UIKit
 
 var myName :String
 var otherName = "words"
-var thisName :String = "thor"
-RETURN; thisName
+var thisName :String = "meow"
+print(thisName.characters.count)
+print(thisName.characters.count)
 
-print (thisName)
-var number = 14 / 2 + 5 % 2
-print(number)
-if number == 8
-{
-    print(thisName)
-}
+var age = 2315
+var speed = 787.789
+var rate = age/Int (speed)
