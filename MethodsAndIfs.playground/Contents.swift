@@ -2,4 +2,7 @@
 
 import UIKit
 
-var str = "Hello, playground"
+public func isReallySimple()  -> Void
+{
+    print("it will be very nice this weekend!!!! yay for 70+ degrees")
+}
