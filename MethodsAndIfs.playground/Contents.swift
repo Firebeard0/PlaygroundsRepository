@@ -47,7 +47,7 @@ while (test < counting())
 print("yay")
 
 
-public class simpleClass
+public class SimpleClass
 {
     private var name :String
     
@@ -56,5 +56,44 @@ public class simpleClass
     {
         name = "My name is ...."
     }
+    
+    public func getName() -> String
+    {
+        return name
+    }
 }
+var sample = SimpleClass()
+print(sample.getName())
 
+
+public class OtherClass
+{
+    
+    private var favoriteNumber : Int
+    private var favoriteWord : String
+    public init()
+    {
+        favoriteNumber = Int()
+        favoriteWord = String()
+    }
+    
+    public init(favoriteNumber: Int, favoriteWord :String)
+    {
+        self.favoriteNumber = favoriteNumber
+        self.favoriteWord = favoriteWord
+        
+    }
+    
+    public func changeInternalState() -> Void
+    {
+        self.favoriteNumber *= 23414
+        self.favoriteWord += "and more and more"
+    }
+}
+//Swift version:
+var secondClass = OtherClass()
+//Java would ve OtherCLass sample = new OtherClass();
+// it is also not = OtherClass.init()
+var thirdSample = OtherClass(favoriteNumber: 28, favoriteWord: "Nerd!!!")
+secondClass.changeInternalState()
+thirdSample.changeInternalState()
