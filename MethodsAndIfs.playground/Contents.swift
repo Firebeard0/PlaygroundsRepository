@@ -46,3 +46,15 @@ while (test < counting())
 
 print("yay")
 
+
+public class simpleClass
+{
+    private var name :String
+    
+    public init()
+    
+    {
+        name = "My name is ...."
+    }
+}
+
