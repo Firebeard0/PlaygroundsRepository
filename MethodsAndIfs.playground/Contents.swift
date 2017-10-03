@@ -46,9 +46,15 @@ while (test < counting())
 
 print("yay")
 
+while (test < 100)
+{
+    print("freak you!!!")
+    test += 2
+}
 
 public class SimpleClass
 {
+    
     private var name :String
     
     public init()
